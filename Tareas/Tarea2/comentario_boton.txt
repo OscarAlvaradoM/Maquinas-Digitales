@@ -1,0 +1,1 @@
+El problema que discutimos en clase con lo del botón es esto del delay. Parece que no es la forma correcta de hacerlo ya que pueden haber procesos entre una lectura de botón y otra que tarden mucho y de este modo no estaríamos leyendo bien a tiempo. Creo que esto se ha de hacer en la vida profesional con algo de concurrencia o algo así.
