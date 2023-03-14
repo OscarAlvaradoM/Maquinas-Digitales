@@ -1,5 +1,3 @@
-// Programa que cuando el potenciómetro supere un umbral, el LED se encenderá
-
 #define PIN_LED 33
 #define PIN_POT 32
 #define THPOT 2000
