@@ -33,7 +33,7 @@
 
 - Video en donde se vea que el celular envíe y reciba caracteres desde y hacia el ESP, usando el programa de ejemplo de Bluetooth que usamos en clase. Se tiene que ver simultáneamente el uso de la app "Terminal Bluetooth" y el monitor serial de Arduino.
 
-[![Video Ping Pong Bluetooth](https://img.youtu.com/v/JdpE_k0nW9o/maxresdefault)](https://youtu.be/JdpE_k0nW9o)
+[![Video Ping Pong Bluetooth](https://img.youtube.com/vi/JdpE_k0nW9o/hqdefault.jpg)](https://youtu.be/JdpE_k0nW9o)
 
 - Captura de pantalla de la recepción de lecturas de los sensores en la Terminal Bluetooth del celular.
 
