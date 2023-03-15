@@ -6,7 +6,7 @@
 
 - Captura de la prueba exitosa del sistema de archivos SPIFFS.
 
-![Prueba SPIFFS](prueba_spiffs.jpg)
+<p style="text-align:center;"><img src="prueba_spiffs.jpg" alt="Prueba SPIFFS" width="50%" height="50%"></p>
 
 - Responder: ¿Para qué queremos un sistema de archivos como SPIFFS? Da un ejemplo de uso.
 
@@ -14,7 +14,7 @@
 
 - Captura de la extensión "ESP32 Sketch Data upload" instalada en Arduino IDE V1
 
-![ESP32 Sketch Data Upload](extension_data_upload.png)
+<p style="text-align:center;"><img src="extension_data_upload.png" alt="ESP32 Sketch Data Upload" width="70%"></p>
 
 - Responder: ¿Por qué no podemos instalar Sketch Data Upload en Arduino IDE V2?
 
@@ -22,34 +22,35 @@
 
 - Captura de las lecturas de los sensores imprimiéndose en el monitor serie con formato json, usando el programa "json_serializer"
 
-![Imprimiendo lecturas en la terminal serial con formato JSON](json_parser.jpg)
+<p style="text-align:center;"><img src="json_parser.jpg" alt="Imprimiendo lecturas en la terminal serial con formato JSON" width="70%"></p>
 
 - Push con el programa "json_serializer", el cual serialice las lecturas de los sensores en formato json y los imprima en el monitor serie.
 
-![Push del código jsonParser_test](push_json_parser.png)
-
+<p style="text-align:center;"><img src="push_json_parser.png" alt="Push del código jsonParser_test" width="70%"></p>
 
 **Módulo RF**
 
 - Video en donde se vea que el celular envíe y reciba caracteres desde y hacia el ESP, usando el programa de ejemplo de Bluetooth que usamos en clase. Se tiene que ver simultáneamente el uso de la app "Terminal Bluetooth" y el monitor serial de Arduino.
 
-[![Video Ping Pong Bluetooth](https://img.youtube.com/vi/JdpE_k0nW9o/hqdefault.jpg)](https://youtu.be/JdpE_k0nW9o)
+<p style="text-align:center;"><video width="70%" controls>
+  <source src="https://youtu.be/JdpE_k0nW9o" type="video/mp4">
+</video></p>
 
 - Captura de pantalla de la recepción de lecturas de los sensores en la Terminal Bluetooth del celular.
 
-![Lectura serial de BT en la terminal del celular](lectura_sensores_BT.jpg)
+<p style="text-align:center;"><img src="lectura_sensores_BT.jpg" alt="Lectura serial de BT en la terminal del celular" width="30%" height="30%"></p>
 
 - Captura de la conexión al WiFi local con ESP32. Debe mostrarse el SSID y la IP asignada al ESP.
 
-![Prueba de conexión wifi con el ESP32](conexion_wifi.png)
+<p style="text-align:center;"><img src="conexion_wifi.png" alt="Prueba de conexión wifi con el ESP32" width="70%" height="70%"></p>
 
 - Captura de la prueba de Ping al ESP32 desde la terminal de la PC.
 
-![Prueba de conexión wifi con el ESP32 mediante un ping](ping_esp32.png)
+<p style="text-align:center;"><img src="ping_esp32.png" alt="Prueba de conexión wifi con el ESP32 mediante un ping" width="70%" height="50%"></p>
 
 - Captura del archivo "Credentials.h".
 
-![Captura del archivo Credentials.h](archivo_credentials.png)
+<p style="text-align:center;"><img src="archivo_credentials.png" alt="Captura del archivo Credentials.h" width="70%" height="50%"></p>
 
 - Responder: ¿Podemos usar simultáneamente WiFi y Bluetooth con ESP32?
 
@@ -61,4 +62,4 @@
 
 - Push con los programas "Bluetooth_logger" y "Conexion_WiFi". Advertencia: Si hay claves hardcodeadas, hay tabla.
 
-![Capturas del push que se hizo de los archovps de la tarea](capturas_push.png)
+<p style="text-align:center;"><img src="capturas_push.png" alt="Capturas del push que se hizo de los archovps de la tarea" width="85%" height="85%"></p>
