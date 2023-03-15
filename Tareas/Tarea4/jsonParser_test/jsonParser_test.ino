@@ -59,8 +59,6 @@ void setup() {
 
   Serial.println("Atributos:");
   Serial.println(message);Serial.println(origen);
-
-
 }
 
 
@@ -79,7 +77,7 @@ void loop() {
    Serial.print("Publicando mensaje: ");
    Serial.println(payload);
                
-   //Json Serializer
+   // Json Serializer
    // Guardar
    payload_out["origen"] = "json_serializer";
    payload_out["temp_C"] = String(temperatura,2);
