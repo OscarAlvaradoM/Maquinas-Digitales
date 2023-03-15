@@ -10,7 +10,7 @@
 
 - Responder: ¿Para qué queremos un sistema de archivos como SPIFFS? Da un ejemplo de uso.
 
-Según entiendo, es como una API para poder subir archivos de manera fácil a la memoria de nuestro ESP32. Un ejemplo de uso sería poner archivos como de contraseñas, para que se manden datos a algún servidor sin tener que estar pasando siempre las contraseñas.
+    Según entiendo, es como una API para poder subir archivos de manera fácil a la memoria de nuestro ESP32. Un ejemplo de uso sería poner archivos como de contraseñas, para que se manden datos a algún servidor sin tener que estar pasando siempre las contraseñas.
 
 - Captura de la extensión "ESP32 Sketch Data upload" instalada en Arduino IDE V1
 
@@ -18,7 +18,7 @@ Según entiendo, es como una API para poder subir archivos de manera fácil a la
 
 - Responder: ¿Por qué no podemos instalar Sketch Data Upload en Arduino IDE V2?
 
-Según entiendo, no se ha actualizado a la V2 de Arduino IDE, ya que es la versión oficial de manera muy reciente.
+    Según entiendo, no se ha actualizado a la V2 de Arduino IDE, ya que es la versión oficial de manera muy reciente.
 
 - Captura de las lecturas de los sensores imprimiéndose en el monitor serie con formato json, usando el programa "json_serializer"
 
@@ -33,7 +33,7 @@ Según entiendo, no se ha actualizado a la V2 de Arduino IDE, ya que es la versi
 
 - Video en donde se vea que el celular envíe y reciba caracteres desde y hacia el ESP, usando el programa de ejemplo de Bluetooth que usamos en clase. Se tiene que ver simultáneamente el uso de la app "Terminal Bluetooth" y el monitor serial de Arduino.
 
-![Video Ping Pong Bluetooth](ping_pong_BT.MOV)
+![Video Ping Pong Bluetooth](ping_pong_BT.mp4)
 
 - Captura de pantalla de la recepción de lecturas de los sensores en la Terminal Bluetooth del celular.
 
@@ -42,7 +42,6 @@ Según entiendo, no se ha actualizado a la V2 de Arduino IDE, ya que es la versi
 - Captura de la conexión al WiFi local con ESP32. Debe mostrarse el SSID y la IP asignada al ESP.
 
 ![Prueba de conexión wifi con el ESP32](conexion_wifi.png)
-
 
 - Captura de la prueba de Ping al ESP32 desde la terminal de la PC.
 
@@ -54,10 +53,12 @@ Según entiendo, no se ha actualizado a la V2 de Arduino IDE, ya que es la versi
 
 - Responder: ¿Podemos usar simultáneamente WiFi y Bluetooth con ESP32?
 
-No, la ESP sólo permite una conexión a la vez.
+    No, la ESP sólo permite una conexión a la vez.
 
 - Responder: ¿Por qué creamos Credentials.h?
 
-Para no *hardcodear* nuestros sketches y que las contraseñas que tengamos para ciertas cosas no estén abiertas al público.
+    Para no *hardcodear* nuestros sketches y que las contraseñas que tengamos para ciertas cosas no estén abiertas al público.
 
 - Push con los programas "Bluetooth_logger" y "Conexion_WiFi". Advertencia: Si hay claves hardcodeadas, hay tabla.
+
+![Capturas del push que se hizo de los archovps de la tarea](capturas_push.png)
