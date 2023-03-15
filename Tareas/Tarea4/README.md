@@ -1,6 +1,6 @@
-<h1 style="text-align: center;">Tarea 4</h1>
-<h2 style="text-align: center;">Máquinas Digitales con Laboratorio</h2>
-<h3 style="text-align: center;">Óscar Alvarado</h3>
+<div align="center"><h1 style="text-align: center;">Tarea 4</h1></div>
+<div align="center"><h2 style="text-align: center;">Máquinas Digitales con Laboratorio</h2></div>
+<div align="center"><h3 style="text-align: center;">Óscar Alvarado</h3></div>
 
 **Json Parser y SPIFFS**
 
@@ -32,7 +32,7 @@
 
 - Video en donde se vea que el celular envíe y reciba caracteres desde y hacia el ESP, usando el programa de ejemplo de Bluetooth que usamos en clase. Se tiene que ver simultáneamente el uso de la app "Terminal Bluetooth" y el monitor serial de Arduino.
 
-<p style="text-align:center;"><video width="70%" controls="controls" src="https://youtu.be/JdpE_k0nW9o"></video></p>
+[![Video Ping Pong Bluetooth](https://img.youtube.com/vi/JdpE_k0nW9o/hqdefault.jpg)](https://youtu.be/JdpE_k0nW9o)
 
 - Captura de pantalla de la recepción de lecturas de los sensores en la Terminal Bluetooth del celular.
 
