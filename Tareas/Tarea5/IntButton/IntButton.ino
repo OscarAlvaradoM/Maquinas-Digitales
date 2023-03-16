@@ -8,6 +8,7 @@ void IRAM_ATTR isrButton() {
     numBotPres += 1;
     lastMillis = millis();
   }
+  Serial.println("Aber");
 }
 
 void setup() {
